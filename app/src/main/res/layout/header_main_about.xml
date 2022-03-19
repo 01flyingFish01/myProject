@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_searchLayout"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="bottom"
+            android:src="@drawable/about_arc"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/kelir"
+            android:id="@+id/hhh" />
+    </FrameLayout>
+</LinearLayout>
